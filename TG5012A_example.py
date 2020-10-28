@@ -5,7 +5,7 @@ Created on Wed Oct 28 11:27:18 2020
 @author: aunal
 """
 
-from pulse_generator import TG5012A
+from AIM_TTI_TG5012A import TG5012A
 import pyvisa
 
 rm = pyvisa.ResourceManager()
