@@ -5,7 +5,7 @@ Created on Tue Oct 27 13:31:50 2020
 @author: aunal
 """
 
-from keithley_class import Keithley # From python file import Keithley Class
+from keithley_model2000 import Keithley # From python file import Keithley Class
 import pyvisa # Import Pyvisa
 from time import sleep
 
