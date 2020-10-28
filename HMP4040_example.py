@@ -4,7 +4,7 @@ Created on Wed Oct 28 10:34:21 2020
 
 @author: aunal
 """
-from power_supply import HMP4040
+from rohde_and_schwarz_HMP4040 import HMP4040
 import pyvisa
 
 rm = pyvisa.ResourceManager()
